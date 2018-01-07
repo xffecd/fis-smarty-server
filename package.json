@@ -1,6 +1,6 @@
 {
   "name": "fis3-server-xsmarty",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fis3 server for xffecd smarty",
   "main": "index.js",
   "scripts": {
