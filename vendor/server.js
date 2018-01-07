@@ -7,8 +7,8 @@ var tar = require('tar');
 function extract(src, folder, callback) {
   fs
     .createReadStream(src)
-    .pipe(tar.Extract({
-      path: folder
+    .pipe(tar.extract({
+      C: folder
     }))
     .on('error', function(err) {
       if (callback) {
