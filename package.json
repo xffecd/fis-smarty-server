@@ -1,6 +1,6 @@
 {
   "name": "fis3-server-xsmarty",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fis3 server for xffecd smarty",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "https://github.com/xffecd/fis-smarty-server.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tar": "*"
+  },
   "keywords": [
     "fis3",
     "server",
